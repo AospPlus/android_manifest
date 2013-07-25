@@ -11,7 +11,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
   
-  <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_4.3" >
+  <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -394,15 +394,15 @@
   <project name="AospPlus/android_system_extras" path="system/extras" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_4.3" />
+  <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/>
      
 <!-- Koush's repo's -->
 
-  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="cm-10.1" />
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+  <!--<project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="cm-10.1" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />-->
      
 <!-- Cyanogenmod repo's -->
 
-  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/>
   <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-10.1" />
