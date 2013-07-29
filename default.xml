@@ -9,9 +9,9 @@
            sync-j="4" />
 
   <remote  name="github"
-           fetch="git://github.com/" />
+           fetch=".." />
   
-  <project path="build" name="platform/build" >
+  <project path="AospPlus/android_build" name="platform/build" remote="github" revision="aosp-plus_4.3">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
