@@ -9,7 +9,7 @@
            sync-j="4" />
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="git://github.com/" />
   
   <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_4.3">
     <copyfile src="core/root.mk" dest="Makefile" />
