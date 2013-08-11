@@ -11,7 +11,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
   
-  <project path="build" name="platform/build" remote="aosp" >
+  <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_4.2.2-r1.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -340,8 +340,8 @@
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_4.2.2-r1.1" />
   <project name="AospPlus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="aosp-plus_4.2.2-r1.1" />
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_4.2.2-r1.1" />
+  <project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" />
   <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="aosp-plus_4.2.2-r1.1" />
-  <project name="AospPlus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_4.2.2-r1.1" />
   <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.2.2-r1.1" />
   <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.2.2-r1.1" />
