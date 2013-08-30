@@ -384,6 +384,7 @@
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_4.3" />
   <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
   <!--project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" /-->
+  <project name="AospPlus/android_kernel_htc_enrc2b-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
   <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
@@ -396,13 +397,10 @@
   <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_4.3" />
 
-<!-- maxwen's kernel -->
-  <project name="maxwen/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
-     
 <!-- Koush's repo's -->
 
   <project name="CyanogenMod/Superuser" path="external/koush/Superuser" remote="github" revision="cm-10.2" />
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />-->
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
      
 <!-- Cyanogenmod repo's -->
 
