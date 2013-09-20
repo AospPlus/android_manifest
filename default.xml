@@ -395,10 +395,10 @@
   <project name="AospPlus/android_system_extras" path="system/extras" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_4.3" />
+  <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.3" />
 
-<!-- Koush's repo's -->
+<!-- Koush's repo -->
 
-  <project name="CyanogenMod/Superuser" path="external/koush/Superuser" remote="github" revision="cm-10.2" />
   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
      
 <!-- Cyanogenmod repo's -->
