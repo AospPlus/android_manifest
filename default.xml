@@ -383,6 +383,7 @@
   <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2_enrc2b-update" />
   <!--project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" /-->
   <project name="AospPlus/android_kernel_htc_enrc2b-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
+  <project name="AospPlus/android_external_Focal" path="external/Focal" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_external_sepolicy" path="external/sepolicy" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_4.3" />
@@ -393,9 +394,11 @@
   <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_system_extras" path="system/extras" remote="github" revision="aosp-plus_4.3" />
+  <project name="AospPlus/android_packages_apps_Focal" path="android_packages_apps_Focal" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.3" />
+
 
 <!-- Koush's repo -->
 
