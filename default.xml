@@ -9,8 +9,9 @@
            sync-j="4" />
 
   <remote  name="github"
-           fetch="git://github.com/" />
-  
+           fetch="git://github.com/"
+           review="http://review.kanger.me/" />
+
   <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_4.3">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
