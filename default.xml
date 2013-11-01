@@ -12,7 +12,7 @@
            fetch="https://github.com/"
            review="http://review.kanger.me/" />
 
-  <project path="build" name="build" >
+  <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
