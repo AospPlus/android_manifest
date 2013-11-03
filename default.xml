@@ -381,7 +381,7 @@
   <project name="AospPlus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_4.3" />
-  <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2_enrc2b-update" />
+  <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
   <project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" />
   <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_external_sepolicy" path="external/sepolicy" remote="github" revision="aosp-plus_4.3" />
