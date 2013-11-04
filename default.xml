@@ -316,6 +316,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
@@ -439,7 +440,6 @@
   <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_system_extras" path="system/extras" remote="github" revision="aosp-plus_4.4" />
-  <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.4" />
 
