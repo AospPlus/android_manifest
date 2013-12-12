@@ -440,6 +440,10 @@
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.4" />
 
+<!-- TheMuppets -->
+
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
+
 <!-- Koush's repo -->
 
   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
