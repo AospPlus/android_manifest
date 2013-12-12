@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-4.4.1_r1"
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -272,8 +272,8 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -410,6 +410,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
+  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
