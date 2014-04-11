@@ -208,6 +208,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="platform/external/skia" />
@@ -433,7 +434,6 @@
   <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="aosp-plus_4.4" />
-  <project name="AospPlus/android_external_sepolicy" path="external/sepolicy" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.4" />
   <project name="AospPlus/android_system_extras" path="system/extras" remote="github" revision="aosp-plus_4.4" />
