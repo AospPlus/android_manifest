@@ -465,7 +465,7 @@
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_openmaster" />
   <project name="AospPlus/android_system_extras" path="system/extras" remote="github" revision="aosp-plus_openmaster" />
   <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-plus_openmaster" />
-  <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_openmaster" />
+  <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.4" />
 
 <!-- TheMuppets -->
 
