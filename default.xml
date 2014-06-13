@@ -21,7 +21,6 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -452,6 +451,10 @@
 <!-- Koush's repo -->
 
   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+
+<!-- TWRP -->
+
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" />
      
 <!-- Cyanogenmod repo's -->
 
