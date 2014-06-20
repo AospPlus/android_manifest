@@ -459,6 +459,7 @@
 <!-- Cyanogenmod repo's -->
 
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-11.0"/>
+  <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
