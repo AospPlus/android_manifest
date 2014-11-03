@@ -453,13 +453,13 @@
 
   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
 
-<!-- TWRP -->
+<!-- Omni -->
 
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" />
+  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-4.4"/>
      
 <!-- Cyanogenmod repo's -->
 
-  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_asus_tf700t" path="kernel/asus/tf700t" remote="github" revision="cm-11.0" />
