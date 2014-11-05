@@ -511,6 +511,7 @@
 <!-- AospPlus -->
 
   <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
