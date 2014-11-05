@@ -9,7 +9,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -512,6 +512,7 @@
 
   <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
   
 <!-- TheMuppets -->
