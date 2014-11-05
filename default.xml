@@ -7,7 +7,7 @@
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
-           fetch="git@github.com:" />
+           fetch="https://github.com/" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -50,8 +50,6 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
@@ -508,5 +506,16 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+
+<!-- AospPlus -->
+
+  <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
+  
+<!-- TheMuppets -->
+
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
 
 </manifest>
