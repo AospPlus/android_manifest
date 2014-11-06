@@ -506,6 +506,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+<!-- Custom AOSP -->
+
+  <project path="external/openssh" name="platform/external/openssh" revision="android-l-preview_r2" />
 
 <!-- AospPlus -->
 
@@ -519,5 +522,10 @@
 <!-- TheMuppets -->
 
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
+
+<!-- CyanogenMod -->
+  
+  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-11.0 />
+
 
 </manifest>
