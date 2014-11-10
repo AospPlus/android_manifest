@@ -50,7 +50,6 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
@@ -509,6 +508,7 @@
 <!-- AospPlus -->
 
   <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_external_openssh" path="external/openssh" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.0" />
@@ -522,7 +522,7 @@
 
 <!-- CyanogenMod -->
   
-  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-11.0 />
+  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-12.0" />
 
 
 </manifest>
