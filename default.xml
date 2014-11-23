@@ -51,7 +51,6 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -508,6 +507,7 @@
 
   <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_external_openssh" path="external/openssh" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.0" />
@@ -515,10 +515,6 @@
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
   
-<!-- TheMuppets -->
-
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
-
 <!-- CyanogenMod -->
   
   <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-12.0" />
