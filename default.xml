@@ -51,7 +51,6 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -510,7 +509,8 @@
   <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_external_openssh" path="external/openssh" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-aosp_plus-5.0" />
+  <project name="AospPlus/android_kernel_msm" path="kernel/moto/shamu" remote="github" revision="android-msm-shamu-3.10-lollipop-release" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
   
