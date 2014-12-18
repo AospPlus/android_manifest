@@ -512,6 +512,7 @@
   <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-aosp_plus-5.0" />
   <project name="AospPlus/android_kernel_msm" path="kernel/moto/shamu" remote="github" revision="android-msm-shamu-3.10-lollipop-release" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_vendor_blobs" path="vendor" remote="github" revision="aosp-plus_5.0" />
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
   
 <!-- CyanogenMod -->
