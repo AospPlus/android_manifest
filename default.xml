@@ -9,7 +9,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_5.0" >
+  <project path="build" name="AospPlus/android_build" remote="github" revision="aosp-plus_5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -507,17 +507,16 @@
 
 <!-- AospPlus -->
 
-  <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_external_openssh" path="external/openssh" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-aosp_plus-5.0" />
+  <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-aosp_plus-5.1" />
   <project name="AospPlus/android_kernel_msm" path="kernel/moto/shamu" remote="github" revision="android-msm-shamu-3.10-lollipop-release" />
-  <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_vendor_blobs" path="vendor" remote="github" revision="aosp-plus_5.0" />
-  <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.0" />
+  <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_vendor_blobs" path="vendor" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.1" />
   
 <!-- CyanogenMod -->
   
