@@ -229,7 +229,6 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
@@ -511,6 +510,7 @@
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.1" />
+  <project name="AospPlus/android_external_openssh" path="external/openssh" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-aosp_plus-5.1" />
   <project name="AospPlus/android_kernel_msm" path="kernel/moto/shamu" remote="github" revision="android-msm-shamu-3.10-lollipop-release" />
