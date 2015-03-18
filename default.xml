@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com." />
+           fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -354,6 +354,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/moto/shamu" name="platform/kernel/msm" revision="android-msm-shamu-3.10-lollipop-mr1" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -509,17 +510,16 @@
   <project name="AospPlus/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="aosp-plus_5.1" />
-  <project name="AospPlus/android_external_busybox" path="external/busybox" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_external_openssh" path="external/openssh" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_kernel_msm" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-aosp_plus-5.1" />
-  <project name="AospPlus/android_kernel_msm" path="kernel/moto/shamu" remote="github" revision="android-msm-shamu-3.10-lollipop-release" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_vendor_blobs" path="vendor" remote="github" revision="aosp-plus_5.1" />
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" revision="aosp-plus_5.1" />
   
 <!-- CyanogenMod -->
   
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-12.0" />
 
 
