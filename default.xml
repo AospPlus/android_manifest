@@ -284,7 +284,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs" revision="30b9ff3dd1a2663d017fea74adfbcd3da4aa2635" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
