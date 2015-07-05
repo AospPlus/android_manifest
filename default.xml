@@ -550,4 +550,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <project path="vendor/google/gapps" name="AospPlus/android_vendor_google_gapps" remote="github" revision="lollipop-x86" />
 </manifest>
