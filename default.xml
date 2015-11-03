@@ -496,4 +496,7 @@
   <project path="vendor/google/build" name="opengapps/aosp_build" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/all" name="opengapps/all" clone-depth="1" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/arm" name="opengapps/arm" clone-depth="1" revision="master" remote="github" />
+
+  <!-- su -->
+  <project path="external/Superuser" name="phhusson/Superuser" revision="master" remote="github" />
 </manifest>
