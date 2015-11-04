@@ -493,9 +493,10 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="cm-13.0" />
 
   <!-- opengapps" -->
-  <project path="vendor/google/build" name="opengapps/aosp_build" revision="master" remote="github" />
+  <project path="vendor/google/build" name="tombriden/aosp_build" revision="build_fixes" remote="github" />
   <project path="vendor/opengapps/sources/all" name="opengapps/all" clone-depth="1" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/arm" name="opengapps/arm" clone-depth="1" revision="master" remote="github" />
+  <project path="vendor/opengapps/sources/arm64" name="opengapps/arm64" clone-depth="1" revision="master" remote="github" />
 
   <!-- su -->
   <project path="external/Superuser" name="phhusson/Superuser" revision="master" remote="github" />
